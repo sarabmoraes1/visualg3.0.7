@@ -15,7 +15,7 @@ Inicio
    para i de 0 ate N-1 faca
      escreval("Dados da ", i+1, " a passoa:")
      escreva("Nome: ")
-     leia(nomes[1])
+     leia(nomes[i])
      escreva("idade: ")
      leia(idades[i])
    fimpara
@@ -27,7 +27,7 @@ Inicio
    para i de 1 ate N-1 faca
      se idades[i] > maior entao
        maior <- idades[i]
-       posMaior <-i
+       posMaior <- i
      fimse
    fimpara
    
